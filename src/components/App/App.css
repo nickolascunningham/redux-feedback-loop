@@ -21,3 +21,24 @@
 h4 {
   font-style: italic;
 }
+
+.form{
+  width: 50%;
+  margin: 10vh auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.formContainer{
+  margin: 20vh auto;
+}
+
+.btn-next{
+  height: fit-content;
+  display: flex;
+  align-self: center;
+  width: 100;
+  padding: 10px 23px;
+
+}
+
