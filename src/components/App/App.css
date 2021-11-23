@@ -22,23 +22,45 @@ h4 {
   font-style: italic;
 }
 
-.form{
+.form {
   width: 50%;
   margin: 10vh auto;
+}
+
+.formContainer {
   display: flex;
   justify-content: space-evenly;
 }
 
-.formContainer{
-  margin: 20vh auto;
-}
-
-.btn-next{
+.btn-next {
   height: fit-content;
   display: flex;
   align-self: center;
   width: 100;
   padding: 10px 23px;
-
 }
 
+.container {
+  margin: 20vh auto;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10vh;
+margin: 20vh auto;
+}
+
+.review ul {
+  list-style-type: none;
+}
+
+.review ul li {
+  font-size: 1.3rem;
+}
+
+.btn-submit {
+  width: fit-content;
+  display: flex;
+  align-self: center;
+}
