@@ -10,7 +10,7 @@ const Comment = ({ handleChange }) => {
 
   return (
     <div className="container">
-      <h1>How well are you being Commented?</h1>
+      <h1>Comments?</h1>
       <div className="formContainer">
         <Form className="form">
           <Form.Group className="mb-3">
